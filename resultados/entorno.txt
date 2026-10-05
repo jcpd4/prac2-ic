@@ -1,0 +1,15 @@
+Fecha: 2026-10-05T15:53:11+02:00
+Kernel: Linux 6.6.87.2-microsoft-standard-WSL2 x86_64
+CPU(s): 16
+Model name: AMD Ryzen 7 5800X 8-Core Processor
+Thread(s) per core: 2
+Core(s) per socket: 8
+Socket(s): 1
+Flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop
+L1d cache: 256 KiB (8 instances)
+L1i cache: 256 KiB (8 instances)
+L2 cache: 4 MiB (8 instances)
+L3 cache: 32 MiB (1 instance)
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi       713Mi        30Gi       3.5Mi       806Mi        30Gi
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0

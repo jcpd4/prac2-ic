@@ -1,0 +1,4 @@
+# Forzar LF: bench.sh y el Makefile deben funcionar en Linux/WSL aunque se clone desde Windows
+* text=auto eol=lf
+*.pdf binary
+*.sh text eol=lf

@@ -1,0 +1,12 @@
+O0: identica a O2
+O1: identica a O2
+O2: identica a O2
+O2_novec: identica a O2
+O3: identica a O2
+O3_unroll: identica a O2
+O3_native: DISTINTA de O2 (42745 bytes)
+O3_native_lto: DISTINTA de O2 (42745 bytes)
+Ofast_native: DISTINTA de O2 (54125 bytes)
+O2_blurfilas: identica a O2
+O3_native_blurfilas: DISTINTA de O2 (42745 bytes)
+O3_native_nofma: identica a O2

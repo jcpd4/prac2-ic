@@ -1,0 +1,12 @@
+O0: gcc -O0 canny.c -o canny_O0 -lm
+O1: gcc -O1 canny.c -o canny_O1 -lm
+O2: gcc -O2 canny.c -o canny_O2 -lm
+O2_novec: gcc -O2 -fno-tree-vectorize canny.c -o canny_O2_novec -lm
+O3: gcc -O3 canny.c -o canny_O3 -lm
+O3_unroll: gcc -O3 -funroll-loops canny.c -o canny_O3_unroll -lm
+O3_native: gcc -O3 -march=native canny.c -o canny_O3_native -lm
+O3_native_lto: gcc -O3 -march=native -flto canny.c -o canny_O3_native_lto -lm
+Ofast_native: gcc -Ofast -march=native canny.c -o canny_Ofast_native -lm
+O2_blurfilas: gcc -O2 -DBLUR_Y_FILAS canny.c -o canny_O2_blurfilas -lm
+O3_native_blurfilas: gcc -O3 -march=native -DBLUR_Y_FILAS canny.c -o canny_O3_native_blurfilas -lm
+O3_native_nofma: gcc -O3 -march=native -ffp-contract=off canny.c -o canny_O3_native_nofma -lm

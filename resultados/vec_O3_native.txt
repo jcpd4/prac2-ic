@@ -1,0 +1,43 @@
+canny.c: In function ‘read_pgm_image’:
+canny.c:1035:4: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1035 |    fgets(buf, 70, fp);
+      |    ^~~~~~~~~~~~~~~~~~
+canny.c:1042:8: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1042 |    do{ fgets(buf, 70, fp); }while(buf[0] == '#');  /* skip all comment lines */
+      |        ^~~~~~~~~~~~~~~~~~
+canny.c:1044:8: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1044 |    do{ fgets(buf, 70, fp); }while(buf[0] == '#');  /* skip all comment lines */
+      |        ^~~~~~~~~~~~~~~~~~
+canny.c: In function ‘read_ppm_image’:
+canny.c:1145:4: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1145 |    fgets(buf, 70, fp);
+      |    ^~~~~~~~~~~~~~~~~~
+canny.c:1152:8: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1152 |    do{ fgets(buf, 70, fp); }while(buf[0] == '#');  /* skip all comment lines */
+      |        ^~~~~~~~~~~~~~~~~~
+canny.c:1154:8: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1154 |    do{ fgets(buf, 70, fp); }while(buf[0] == '#');  /* skip all comment lines */
+      |        ^~~~~~~~~~~~~~~~~~
+canny.c:438:29: optimized: loop vectorized using 32 byte vectors
+canny.c:438:29: optimized:  loop versioned for vectorization because of possible aliasing
+canny.c:438:29: optimized: loop vectorized using 16 byte vectors
+canny.c:436:17: optimized: loop vectorized using 32 byte vectors
+canny.c:436:17: optimized:  loop versioned for vectorization because of possible aliasing
+canny.c:436:17: optimized: loop vectorized using 16 byte vectors
+canny.c:434:14: optimized: loop vectorized using 32 byte vectors
+canny.c:434:14: optimized:  loop versioned for vectorization because of possible aliasing
+canny.c:434:14: optimized: loop vectorized using 16 byte vectors
+canny.c:407:16: optimized: loop vectorized using 32 byte vectors
+canny.c:407:16: optimized:  loop versioned for vectorization because of possible aliasing
+canny.c:407:16: optimized: loop vectorized using 16 byte vectors
+canny.c:578:13: optimized: loop vectorized using 32 byte vectors
+canny.c:578:13: optimized: loop vectorized using 16 byte vectors
+canny.c:620:8: optimized: basic block part vectorized using 32 byte vectors
+canny.c:620:8: optimized: basic block part vectorized using 32 byte vectors
+canny.c:703:24: optimized: loop vectorized using 32 byte vectors
+canny.c:703:24: optimized: loop vectorized using 8 byte vectors
+canny.c:673:19: optimized: loop vectorized using 32 byte vectors
+canny.c:673:19: optimized: loop vectorized using 16 byte vectors
+canny.c:662:16: optimized: loop vectorized using 32 byte vectors
+canny.c:662:16: optimized:  loop versioned for vectorization because of possible aliasing
+canny.c:662:16: optimized: loop vectorized using 16 byte vectors

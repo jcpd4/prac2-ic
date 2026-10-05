@@ -1,0 +1,310 @@
+canny.c: In function ‘read_pgm_image’:
+canny.c:1035:4: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1035 |    fgets(buf, 70, fp);
+      |    ^~~~~~~~~~~~~~~~~~
+canny.c:1042:8: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1042 |    do{ fgets(buf, 70, fp); }while(buf[0] == '#');  /* skip all comment lines */
+      |        ^~~~~~~~~~~~~~~~~~
+canny.c:1044:8: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1044 |    do{ fgets(buf, 70, fp); }while(buf[0] == '#');  /* skip all comment lines */
+      |        ^~~~~~~~~~~~~~~~~~
+canny.c: In function ‘read_ppm_image’:
+canny.c:1145:4: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1145 |    fgets(buf, 70, fp);
+      |    ^~~~~~~~~~~~~~~~~~
+canny.c:1152:8: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1152 |    do{ fgets(buf, 70, fp); }while(buf[0] == '#');  /* skip all comment lines */
+      |        ^~~~~~~~~~~~~~~~~~
+canny.c:1154:8: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1154 |    do{ fgets(buf, 70, fp); }while(buf[0] == '#');  /* skip all comment lines */
+      |        ^~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error allocating the gradient direction image.\n", 1, 47, stderr.41_1);
+canny.c:290:7: missed: statement clobbers memory: exit (1);
+canny.c:294:19: missed: couldn't vectorize loop
+canny.c:294:19: missed: not vectorized: control flow in loop.
+canny.c:295:16: missed: couldn't vectorize loop
+canny.c:295:16: missed: not vectorized: control flow in loop.
+canny.c:294:19: missed: couldn't vectorize loop
+canny.c:294:19: missed: not vectorized: control flow in loop.
+canny.c:295:16: missed: couldn't vectorize loop
+canny.c:295:16: missed: not vectorized: control flow in loop.
+canny.c:294:19: missed: couldn't vectorize loop
+canny.c:294:19: missed: not vectorized: control flow in loop.
+canny.c:295:16: missed: couldn't vectorize loop
+canny.c:295:16: missed: not vectorized: control flow in loop.
+canny.c:288:26: missed: statement clobbers memory: dirim_26 = calloc (_2, 4);
+canny.c:278:6: missed: statement clobbers memory: radian_direction.part.0 ();
+canny.c:354:19: missed: couldn't vectorize loop
+canny.c:354:19: missed: not vectorized: control flow in loop.
+canny.c:355:16: missed: couldn't vectorize loop
+canny.c:355:16: missed: not vectorized: control flow in loop.
+canny.c:349:31: missed: statement clobbers memory: _3 = calloc (_2, 2);
+canny.c:358:44: missed: statement clobbers memory: _47 = sqrt (_16);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error allocating the magnitude image.\n", 1, 38, stderr.42_43);
+canny.c:351:7: missed: statement clobbers memory: exit (1);
+canny.c:403:13: missed: couldn't vectorize loop
+canny.c:403:13: missed: not vectorized: control flow in loop.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"\n===================== Derivate_x_y ====================="[0]);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:387:31: missed: statement clobbers memory: _3 = calloc (_2, 2);
+canny.c:391:31: missed: statement clobbers memory: _5 = calloc (_2, 2);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo primer bloque serial: \t\t%.5g\tsegundos\n", secs_derivate_x_118);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo segundo bloque serial: \t\t%.5g\tsegundos\n", secs_derivate_y_119);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo total funcion: \t\t\t%.5g\tsegundos\n", secs_derivate_120);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"========================================================"[0]);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error allocating the delta_x image.\n", 1, 36, stderr.44_6);
+canny.c:393:7: missed: statement clobbers memory: exit (1);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error allocating the delta_x image.\n", 1, 36, stderr.43_4);
+canny.c:389:7: missed: statement clobbers memory: exit (1);
+canny.c:571:13: missed: couldn't vectorize loop
+canny.c:571:13: missed: not vectorized: number of iterations cannot be computed.
+canny.c:566:28: missed: statement clobbers memory: _11 = calloc (_10, 4);
+canny.c:573:12: missed: statement clobbers memory: _20 = pow (2.71828000000000002955857780762016773223876953125e+0, _19);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error callocing the gaussian kernel array.\n", 1, 43, stderr.53_12);
+canny.c:568:7: missed: statement clobbers memory: exit (1);
+canny.c:525:13: missed: couldn't vectorize loop
+canny.c:525:13: missed: not vectorized: multiple nested loops.
+canny.c:526:16: missed: couldn't vectorize loop
+canny.c:526:16: missed: not vectorized: control flow in loop.
+canny.c:530:29: missed: couldn't vectorize loop
+canny.c:530:29: missed: not vectorized: control flow in loop.
+canny.c:497:13: missed: couldn't vectorize loop
+canny.c:497:13: missed: not vectorized: multiple nested loops.
+canny.c:498:16: missed: couldn't vectorize loop
+canny.c:498:16: missed: not vectorized: control flow in loop.
+canny.c:501:29: missed: couldn't vectorize loop
+canny.c:501:29: missed: not vectorized: control flow in loop.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"\n==================== Gaussian_Smooth ==================="[0]);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:476:4: missed: statement clobbers memory: make_gaussian_kernel (sigma_77(D), &kernel, &windowsize);
+canny.c:482:27: missed: statement clobbers memory: tempim_83 = calloc (_3, 4);
+canny.c:486:38: missed: statement clobbers memory: _5 = calloc (_3, 2);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo primer bloque serial: \t\t%.5g\tsegundos\n", secs_blur_x_87);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo segundo bloque serial: \t\t%.5g\tsegundos\n", secs_blur_y_88);
+canny.c:543:4: missed: statement clobbers memory: free (tempim_83);
+canny.c:544:4: missed: statement clobbers memory: free (pretmp_277);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo total funcion: \t\t\t%.5g\tsegundos\n", secs_gaussian_smooth_91);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"========================================================"[0]);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error allocating the smoothed image.\n", 1, 37, stderr.47_6);
+canny.c:489:7: missed: statement clobbers memory: exit (1);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error allocating the buffer image.\n", 1, 35, stderr.46_4);
+canny.c:484:7: missed: statement clobbers memory: exit (1);
+canny.c:622:13: missed: couldn't vectorize loop
+canny.c:622:13: missed: not vectorized: control flow in loop.
+canny.c:628:10: missed: statement clobbers memory: follow_edges (tempmapptr_51, tempmagptr_57, _60, cols_33(D));
+canny.c:628:10: missed: statement clobbers memory: follow_edges (tempmapptr_74, tempmagptr_77, _80, cols_33(D));
+canny.c:628:10: missed: statement clobbers memory: follow_edges (tempmapptr_94, tempmagptr_97, _100, cols_33(D));
+canny.c:628:10: missed: statement clobbers memory: follow_edges (tempmapptr_114, tempmagptr_117, _120, cols_33(D));
+canny.c:628:10: missed: statement clobbers memory: follow_edges (tempmapptr_134, tempmagptr_137, _140, cols_33(D));
+canny.c:628:10: missed: statement clobbers memory: follow_edges (tempmapptr_154, tempmagptr_157, _160, cols_33(D));
+canny.c:628:10: missed: statement clobbers memory: follow_edges (tempmapptr_174, tempmagptr_177, _180, cols_33(D));
+canny.c:628:10: missed: statement clobbers memory: follow_edges (tempmapptr_35, tempmagptr_37, _10, cols_33(D));
+canny.c:760:19: missed: couldn't vectorize loop
+canny.c:760:19: missed: not vectorized: control flow in loop.
+canny.c:761:16: missed: couldn't vectorize loop
+canny.c:761:16: missed: not vectorized: control flow in loop.
+canny.c:743:19: missed: couldn't vectorize loop
+canny.c:743:19: missed: not vectorized: control flow in loop.
+canny.c:744:16: missed: couldn't vectorize loop
+canny.c:744:16: missed: not vectorized: control flow in loop.
+canny.c:722:30: missed: couldn't vectorize loop
+canny.c:722:30: missed: not vectorized: number of iterations cannot be computed.
+canny.c:692:19: missed: couldn't vectorize loop
+canny.c:692:19: missed: not vectorized: control flow in loop.
+canny.c:693:16: missed: couldn't vectorize loop
+canny.c:693:16: missed: not vectorized: control flow in loop.
+canny.c:673:19: missed: couldn't vectorize loop
+canny.c:673:19: missed: Loop costings may not be worthwhile.
+canny.c:661:19: missed: couldn't vectorize loop
+canny.c:663:9: missed: failed: evolution of base is not affine.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"\n==================== Appy_Hysteresis ==================="[0]);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo primer bloque serial: \t\t%.5g\tsegundos\n", secs_hyst_first_for_96);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo primer bloque serial: \t\t%.5g\tsegundos\n", secs_hyst_first_for_100);
+canny.c:679:15: missed: statement clobbers memory: __builtin_memset (edge_117(D), 255, _333);
+canny.c:680:17: missed: statement clobbers memory: __builtin_memset (_243, 255, _333);
+canny.c:687:33: missed: statement clobbers memory: __builtin_memset (&hist, 0, 131072);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo segundo bloque serial: \t\t%.5g\tsegundos\n", secs_hyst_fourth_for_103);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:747:13: missed: statement clobbers memory: follow_edges (_43, _46, _50, cols_101(D));
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo tercer bloque serial: \t\t%.5g\tsegundos\n", secs_hyst_fiveth_for_112);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo cuarto bloque serial: \t\t%.5g\tsegundos\n", secs_hyst_sixth_for_113);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo total funcion: \t\t\t%.5g\tsegundos\n", secs_hyst_114);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"========================================================"[0]);
+canny.c:814:15: missed: couldn't vectorize loop
+canny.c:814:15: missed: not vectorized: control flow in loop.
+canny.c:818:41: missed: couldn't vectorize loop
+canny.c:818:41: missed: not vectorized: control flow in loop.
+canny.c:803:14: missed: couldn't vectorize loop
+canny.c:803:14: missed: Loop costings may not be worthwhile.
+canny.c:803:14: missed: couldn't vectorize loop
+canny.c:803:14: missed: Loop costings may not be worthwhile.
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"\n===================== Non_Max_Supp ====================="[0]);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:799:36: missed: statement clobbers memory: __builtin_memset (resultptr_255, 0, _467);
+canny.c:799:23: missed: statement clobbers memory: __builtin_memset (result_252(D), 0, _464);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo bloque serial: \t\t\t%.5g\tsegundos\n", secs_non_max_268);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "Tiempo total funcion: \t\t\t%.5g\tsegundos\n", secs_non_max_supp_269);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"========================================================"[0]);
+canny.c:294:19: missed: couldn't vectorize loop
+canny.c:294:19: missed: not vectorized: control flow in loop.
+canny.c:295:16: missed: couldn't vectorize loop
+canny.c:295:16: missed: not vectorized: control flow in loop.
+canny.c:192:4: missed: statement clobbers memory: gaussian_smooth (image_19(D), rows_20(D), cols_21(D), sigma_22(D), &smoothedim);
+canny.c:198:4: missed: statement clobbers memory: derrivative_x_y (smoothedim.23_1, rows_20(D), cols_21(D), &delta_x, &delta_y);
+canny.c:288:26: missed: statement clobbers memory: dirim_60 = calloc (_141, 4);
+canny.c:215:19: missed: statement clobbers memory: fpdir_28 = fopen (fname_25(D), "wb");
+canny.c:219:7: missed: statement clobbers memory: fwrite (dirim_60, 4, _141, fpdir_28);
+canny.c:220:7: missed: statement clobbers memory: fclose (fpdir_28);
+canny.c:221:7: missed: statement clobbers memory: free (dirim_60);
+canny.c:228:4: missed: statement clobbers memory: magnitude_x_y (prephitmp_135, prephitmp_133, rows_20(D), cols_21(D), &magnitude);
+canny.c:234:32: missed: statement clobbers memory: nms_35 = calloc (_141, 1);
+canny.c:239:4: missed: statement clobbers memory: non_max_supp (magnitude.34_13, prephitmp_135, prephitmp_133, rows_20(D), cols_21(D), nms_35);
+canny.c:245:31: missed: statement clobbers memory: _14 = calloc (_141, 1);
+canny.c:250:4: missed: statement clobbers memory: apply_hysteresis (magnitude.34_13, nms_35, rows_20(D), cols_21(D), tlow_40(D), thigh_41(D), _14);
+canny.c:256:4: missed: statement clobbers memory: free (smoothedim.23_1);
+canny.c:257:4: missed: statement clobbers memory: free (prephitmp_135);
+canny.c:258:4: missed: statement clobbers memory: free (prephitmp_133);
+canny.c:259:4: missed: statement clobbers memory: free (magnitude.34_13);
+canny.c:260:4: missed: statement clobbers memory: free (nms_35);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error allocating the edge image.\n", 1, 33, stderr.35_15);
+canny.c:247:7: missed: statement clobbers memory: exit (1);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error allocating the nms image.\n", 1, 32, stderr.31_12);
+canny.c:236:7: missed: statement clobbers memory: exit (1);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.26_4, 2, "Error opening the file %s for writing.\n", fname_25(D));
+canny.c:217:10: missed: statement clobbers memory: exit (1);
+canny.c:175:6: missed: statement clobbers memory: radian_direction.part.0 ();
+canny.c:1044:42: missed: couldn't vectorize loop
+canny.c:1044:42: missed: not vectorized: number of iterations cannot be computed.
+canny.c:1042:42: missed: couldn't vectorize loop
+canny.c:1042:42: missed: not vectorized: number of iterations cannot be computed.
+canny.c:1024:16: missed: statement clobbers memory: fp_37 = fopen (infilename_34(D), "r");
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.54_1, 2, "Error reading the file %s in read_pgm_image().\n", infilename_34(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:200:12: missed: statement clobbers memory: __fgets_alias (&buf, 70, fp_24);
+canny.c:1036:7: missed: statement clobbers memory: _2 = strncmp (&buf, "P5", 2);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:200:12: missed: statement clobbers memory: __fgets_alias (&buf, 70, fp_24);
+canny.c:1043:4: missed: statement clobbers memory: sscanf (&buf, "%d %d", cols_39(D), rows_40(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:200:12: missed: statement clobbers memory: __fgets_alias (&buf, 70, fp_24);
+canny.c:1049:37: missed: statement clobbers memory: _12 = malloc (_11);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:215:10: missed: statement clobbers memory: _59 = __fread_chk (_12, _11, _19, _16, fp_24);
+canny.c:1061:20: missed: statement clobbers memory: fclose (fp_24);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error reading the image data in read_pgm_image().\n", 1, 50, stderr.60_20);
+canny.c:1056:23: missed: statement clobbers memory: fclose (fp_24);
+canny.c:1057:7: missed: statement clobbers memory: free (_22);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Memory allocation failure in read_pgm_image().\n", 1, 47, stderr.58_13);
+canny.c:1051:23: missed: statement clobbers memory: fclose (fp_24);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.55_3, 2, "The file %s is not in PGM format in ", infilename_34(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("read_pgm_image().\n", 1, 18, stderr.56_4);
+canny.c:1039:23: missed: statement clobbers memory: fclose (fp_24);
+canny.c:1082:16: missed: statement clobbers memory: fp_20 = fopen (outfilename_17(D), "w");
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.63_1, 2, "Error writing the file %s in write_pgm_image().\n", outfilename_17(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (fp_10, 2, "P5\n%d %d\n", cols_22(D), rows_23(D));
+canny.c:1094:10: missed: statement clobbers memory: _2 = strlen (comment_24(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (fp_10, 2, "# %s\n", comment_24(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (fp_10, 2, "%d\n", maxval_25(D));
+canny.c:1100:15: missed: statement clobbers memory: _6 = fwrite (image_26(D), _5, _3, fp_10);
+canny.c:1106:21: missed: statement clobbers memory: fclose (fp_10);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Error writing the image data in write_pgm_image().\n", 1, 51, stderr.64_7);
+canny.c:1102:24: missed: statement clobbers memory: fclose (fp_10);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"\n********************************************************"[0]);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"********************* CANNY SERIAL *********************"[0]);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __builtin_puts (&"********************************************************"[0]);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:27:10: missed: statement clobbers memory: _59 = strtod (_16, 0B);
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:27:10: missed: statement clobbers memory: _58 = strtod (_17, 0B);
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:27:10: missed: statement clobbers memory: _57 = strtod (_18, 0B);
+canny.c:133:7: missed: statement clobbers memory: _120 = read_pgm_image (infilename_39, &image, &rows, &cols);
+canny.c:133:7: missed: statement clobbers memory: _19 = read_pgm_image (infilename_39, &image, &rows, &cols);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:30:10: missed: statement clobbers memory: __builtin___sprintf_chk (&composedfname, 2, 128, "%s_s_%3.2f_l_%3.2f_h_%3.2f.fim", infilename_39, _23, _22, _21);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+canny.c:148:4: missed: statement clobbers memory: canny (image.17_26, rows.16_25, cols.15_24, sigma_40, tlow_41, thigh_42, &edge, dirfilename_34);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "\nTiempo canny() (sin E/S): %.5g segundos\n", _27);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:30:10: missed: statement clobbers memory: __builtin_sprintf (&outfilename, "imagen_serial.pgm");
+canny.c:158:7: missed: statement clobbers memory: _31 = write_pgm_image (&outfilename, edge.20_30, rows.19_29, cols.18_28, "", 255);
+canny.c:162:4: missed: statement clobbers memory: free (image.17_26);
+canny.c:50:4: missed: statement clobbers memory: clock_gettime (1, &ts);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:10: missed: statement clobbers memory: __printf_chk (2, "\nTiempo total del programa: %.5g segundos\n\n", secs_47);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.21_32, 2, "Error writing the edge image, %s.\n", &outfilename);
+canny.c:160:7: missed: statement clobbers memory: exit (1);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.14_20, 2, "Error reading the input image, %s.\n", infilename_39);
+canny.c:135:7: missed: statement clobbers memory: exit (1);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.0_2, 2, "\n<USAGE> %s image sigma tlow thigh [writedirim]\n", _1);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("\n      image:      An image to process. Must be in ", 1, 51, stderr.1_3);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("PGM format.\n", 1, 12, stderr.2_4);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("      sigma:      Standard deviation of the gaussian", 1, 52, stderr.3_5);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite (" blur kernel.\n", 1, 14, stderr.4_6);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("      tlow:       Fraction (0.0-1.0) of the high ", 1, 49, stderr.5_7);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("edge strength threshold.\n", 1, 25, stderr.6_8);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("      thigh:      Fraction (0.0-1.0) of the distribution", 1, 56, stderr.7_9);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite (" of non-zero edge\n                  strengths for ", 1, 50, stderr.8_10);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("hysteresis. The fraction is used to compute\n", 1, 44, stderr.9_11);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("                  the high edge strength threshold.\n", 1, 52, stderr.10_12);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("      writedirim: Optional argument to output ", 1, 46, stderr.11_13);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("a floating point", 1, 16, stderr.12_14);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite (" direction image.\n\n", 1, 19, stderr.13_15);
+canny.c:118:7: missed: statement clobbers memory: exit (1);
+canny.c:1176:13: missed: couldn't vectorize loop
+canny.c:1177:40: missed: statement clobbers memory: _31 = fgetc (fp_46);
+canny.c:1154:42: missed: couldn't vectorize loop
+canny.c:1154:42: missed: not vectorized: number of iterations cannot be computed.
+canny.c:1152:42: missed: couldn't vectorize loop
+canny.c:1152:42: missed: not vectorized: number of iterations cannot be computed.
+canny.c:1134:16: missed: statement clobbers memory: fp_62 = fopen (infilename_59(D), "r");
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.67_1, 2, "Error reading the file %s in read_ppm_image().\n", infilename_59(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:200:12: missed: statement clobbers memory: __fgets_alias (&buf, 70, fp_46);
+canny.c:1146:7: missed: statement clobbers memory: _2 = strncmp (&buf, "P6", 2);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:200:12: missed: statement clobbers memory: __fgets_alias (&buf, 70, fp_46);
+canny.c:1153:4: missed: statement clobbers memory: sscanf (&buf, "%d %d", cols_64(D), rows_65(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:200:12: missed: statement clobbers memory: __fgets_alias (&buf, 70, fp_46);
+canny.c:1159:41: missed: statement clobbers memory: _12 = malloc (_11);
+canny.c:1164:41: missed: statement clobbers memory: _19 = malloc (_18);
+canny.c:1169:41: missed: statement clobbers memory: _26 = malloc (_25);
+canny.c:1177:40: missed: statement clobbers memory: _31 = fgetc (fp_46);
+canny.c:1178:40: missed: statement clobbers memory: _36 = fgetc (fp_46);
+canny.c:1179:40: missed: statement clobbers memory: _41 = fgetc (fp_46);
+canny.c:1182:20: missed: statement clobbers memory: fclose (fp_46);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Memory allocation failure in read_ppm_image().\n", 1, 47, stderr.75_27);
+canny.c:1171:23: missed: statement clobbers memory: fclose (fp_46);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Memory allocation failure in read_ppm_image().\n", 1, 47, stderr.73_20);
+canny.c:1166:23: missed: statement clobbers memory: fclose (fp_46);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("Memory allocation failure in read_ppm_image().\n", 1, 47, stderr.71_13);
+canny.c:1161:23: missed: statement clobbers memory: fclose (fp_46);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.68_3, 2, "The file %s is not in PPM format in ", infilename_59(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __builtin_fwrite ("read_ppm_image().\n", 1, 18, stderr.69_4);
+canny.c:1149:23: missed: statement clobbers memory: fclose (fp_46);
+canny.c:1224:13: missed: couldn't vectorize loop
+canny.c:1225:7: missed: statement clobbers memory: fputc (_8, fp_16);
+canny.c:1205:16: missed: statement clobbers memory: fp_27 = fopen (outfilename_24(D), "w");
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (stderr.78_1, 2, "Error writing the file %s in write_pgm_image().\n", outfilename_24(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (fp_16, 2, "P6\n%d %d\n", cols_29(D), rows_30(D));
+canny.c:1217:10: missed: statement clobbers memory: _2 = strlen (comment_31(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (fp_16, 2, "# %s\n", comment_31(D));
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:79:10: missed: statement clobbers memory: __fprintf_chk (fp_16, 2, "%d\n", maxval_32(D));
+canny.c:1225:7: missed: statement clobbers memory: fputc (_8, fp_16);
+canny.c:1226:7: missed: statement clobbers memory: fputc (_11, fp_16);
+canny.c:1227:7: missed: statement clobbers memory: fputc (_14, fp_16);
+canny.c:1230:21: missed: statement clobbers memory: fclose (fp_16);

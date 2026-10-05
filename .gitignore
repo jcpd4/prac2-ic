@@ -1,0 +1,13 @@
+# Ejecutables (solo en la raiz; resultados/canny_O3_native.s se sube)
+/canny
+/canny_*
+/gen_pgm
+
+# Imagenes y salidas generadas (se recrean con make run)
+*.pgm
+*.fim
+gmon.out
+/*.s
+
+# Python
+__pycache__/
